@@ -1,7 +1,7 @@
 import groovy.xml.MarkupBuilder
 
 FileWriter writer = new FileWriter('data/guitars.xml')
-MarkupBuilder builder = new MarkupBuilder() 
+MarkupBuilder builder = new MarkupBuilder(writer) 
 
 builder.guitars {
     guitar(id:1){
