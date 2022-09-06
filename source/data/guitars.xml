@@ -1,17 +1,17 @@
 <guitars>
-  <guitar id='1'>
+  <guitar id="1">
     <name>Fender</name>
   </guitar>
-  <guitar id='2'>
+  <guitar id="2">
     <name>Gibson</name>
   </guitar>
-  <guitar id='3'>
+  <guitar id="3">
     <name>Jackson</name>
   </guitar>
-  <guitar id='4'>
+  <guitar id="4">
     <name>Charvel</name>
   </guitar>
-  <guitar id='5'>
+  <guitar id="5">
     <name>PRS</name>
   </guitar>
 </guitars>
