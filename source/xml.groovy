@@ -1,5 +1,6 @@
 import groovy.xml.MarkupBuilder
 
+FileWriter writer = new FileWriter('data/guitars.xml')
 MarkupBuilder builder = new MarkupBuilder() 
 
 builder.guitars {
