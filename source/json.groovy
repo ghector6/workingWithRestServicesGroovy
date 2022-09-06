@@ -19,5 +19,5 @@ builder2.books{
 	}	
 }
 
-//println builder2.toPrettyString()
+println builder2.toPrettyString()
 new File('data/books.json').write(builder2.toPrettyString())
