@@ -39,3 +39,4 @@ def books = '''
 
  println json
  println json.getClass().getName()
+ println json.books.nextBook.title
