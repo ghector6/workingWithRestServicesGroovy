@@ -1,6 +1,6 @@
 import groovy.json.*
 
-def books = '''
+/*def books = '''
 {
     "books": {
         "currentBook": {
@@ -39,4 +39,12 @@ def books = '''
 
  println json
  println json.getClass().getName()
- println json.books.nextBook.title
+ println json.books.nextBook.title*/
+
+ JsonSlurper slurper = new JsonSlurper()
+
+ def json = slurper.parse(new File('data/books.json'))
+
+ println json.books.currentBook.title
+ println json.books.nextBook.author
+ println json.books.currentBook.author.first
